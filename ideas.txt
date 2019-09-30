@@ -1,0 +1,8 @@
+que te ordene las entradas del txt visitas de mayor a menor por las ips
+que te ordene las entradas del txt visitas por la fecha
+que te diga el numero de veces que alguien accede tu pagina
+crear un formulario donde se registre el nombre apellidos y su pagina de gith
+que relacione tu nombre con tu pagina del gith en el index y que te lleve a la pagina de gith
+
+
+
