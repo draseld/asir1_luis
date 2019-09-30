@@ -3,12 +3,12 @@
 $a=5;
 $b=2;
 
-echo 'suma= '.($a+$b);
+echo 'suma '. 'a'.'+'.'b'.' = '.($a+$b);($a+$b);
 echo '<br/>';
-echo 'resta= '.($a-$b);
+echo 'resta '. 'a'.'-'.'b'.' = '.($a-$b);
 echo '<br/>';
-echo 'producto= '.($a*$b);
+echo 'producto '. 'a'.'*'.'b'.' = '.($a*$b);
 echo '<br/>';
-echo 'division= '.($a/$b);
+echo 'division '. 'a'.'/'.'b'.' = '.($a/$b);
 
 ?>
