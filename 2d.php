@@ -1,0 +1,24 @@
+
+<?php
+
+
+
+function calculadora($a,$b){
+	$r=null;
+	$r=$r. 'suma :'. ' '.$a.' '. '+ '. $b.' '. '='.' '.($a+$b) . '<br/>';
+
+	$r=$r. 'resta :'. ' '.$a.' '. '- '. $b.' '. '='.' '.($a-$b) . '<br/>';
+
+	$r=$r. 'multiplicacion :'. ' '.$a.' '. '* '. $b.' '. '='.' '.($a*$b) . '<br/>';
+		
+		if($b != 0){
+
+	$r=$r. 'division :'. ' '.$a.' '. '/ '. $b.' '. '='.' '.($a/$b) . '<br/>';
+	return $r;
+	};
+};
+$concatenacion=calculadora(7,0);
+echo $concatenacion;
+
+
+?>
