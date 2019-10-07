@@ -21,7 +21,7 @@ echo "Registo completado : <b> $email </b><br><br>";
  
 ?>
 
-<h1>Formulario Suscriptores</h1>
+<h1>INSERTE TU NOTA</h1>
 <br>
 <form method="post" action="<?php echo $_SERVER['PHP_SELF']; ?>">
  <br> Nombre:
