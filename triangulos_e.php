@@ -1,6 +1,5 @@
 <?php
-
-function lados($a, $b, $c) {
+function l($a, $b, $c) {
 	$r='triangulo escaleno';
 		if ($a==$b or $a==$c) {
 		$r='triangulo isosceles';
@@ -10,31 +9,35 @@ function lados($a, $b, $c) {
 	}
 	return $r;
 }
-function angulos($a, $b, $c) {
+function a($A, $B, $C) {
 	$s='  rectangulo';
-		if ($a>90 or $b>90 or $c>90) {
+		if ($A>90 or $B>90 or $C>90) {
 			$s='  obtusangulo';
 			}
 		
-		if($a<90 and $b<90 and $c<90){
-			$s=' acutangulo';
+		if($A<90 and $B<90 and $C<90){
+			$s='  acutangulo';
 	}
 	return $s;
 }
-
+function t($l) {
+	$a=$l[0];
+	$b=$l[1];
+	$c=$l[2];
 	
-function triangulo($l) {
-(
-		$a=$1[0],
-		$a=$1[1],
-		$a=$1[2]
-		
+	$x=($a**2-$b**2+$c**2)/(2*$c);
+	$h=sqrt($a**2-$x**2);
+	$A=atan($h/($c-$x))*(360/(2*3.14));
+	$B=atan($h/$x)*(360/(2*3.14));
+	$C=180-($A+$B);
 	
-		);
+return [
+	'angulos'=>[$A,$B,$C],
+	'tipo_lados'=>l($a,$b,$c),
+	'tipo_angulos'=>a($A,$B,$C)
+	];
 }
-echo tipo($a)."<br>";
+echo '<pre>';
+print_R( t([15,15,24]))."<br>";
+echo '</pre>';
 ?>
-
-
-
-
