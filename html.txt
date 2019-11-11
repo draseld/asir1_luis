@@ -1,0 +1,75 @@
+< html >
+< cabeza >
+< título > Estupido  Flandes </ título >
+</ cabeza >
+< body  bgcolor = " naranja " >
+< img  src = " ned.png "  width = 10% >
+< h1 > Frases  de  Ned  Flanders : </ h1 >
+< h2 > < u > Hola  Holita  Vecinito </ u > </ h2 >
+< h3 > Con  él  es  como  si  no  llevara  nada .  Llevara  nadaa </ h3 >
+< h4 > ¡Hijo  de  Putifar ! </ h4 >
+< h5 > Puedo  decir  que  odio  la  oficina  de  correos .  ¡A  ella  y  un  mal  Padres ! </ h5 >
+
+< centro > < tamaño de fuente  = 40; color = azul > < p > < b > Si quieres conocer la vida de Ned Flanders enviando los siguientes datos </ b > </ p > </ font > </ center >            
+< form  action = " Flanders.php "  method = " post " >
+	Nombre : < input  type = " text "  name = " Nombre " > </ input > </ br >
+	Apellidos : < input  type = " text "  name = " Apellidos " > </ input > </ br >
+	Correo electrónico : < input  type = " text "  name = " Email " > </ input > </ br >
+	Dirección : < input  type = " text "  name = " Direccion " > </ input > </ br >
+	Codigo  Postal : < input  type = " text "  name = " CP " > </ input > </ br >
+	Población : < input  type = " text "  name = " Poblacion " > </ input > </ br >
+	DNI : < input  type = " text "  name = " DNI " > </ input > </ br >
+	Tarjeta  de  crédito : < input  type = " text "  name = " Credito " > </ input > </ br >
+	PIN : < input  type = " text "  name = " PIN " > </ input > </ br >
+	< input  type = " submit "  value = " Enviar " > </ input >
+</ form >
+
+< table  width = " 50% "  border = " 1 " >
+  < tr >
+    < th > Autonomia </ th >
+    < th > Provincia </ th >
+  </ tr >
+  < tr >
+    < td > Cantabria </ td >
+    < td > Cantabria </ td >
+  </ tr >
+  < tr >
+    < td > Asturias </ td >
+    < td > Asturia </ td >
+  </ tr >
+    < tr >
+    < td > Galicia </ td >
+    < td > La Coruña </ td >
+  </ tr >
+    < tr >
+    < td > </ td >
+    < td > Lugo </ td >
+  </ tr >
+	< td > </ td >
+	< td > Pontevedra </ td >
+  </ tr >
+    < tr >
+    < td > </ td >
+    < td > Ourense </ td >
+  </ tr >
+    < tr >
+    < td > País Vasco </ td >
+    < td > Vizcaya </ td >
+  </ tr >
+    < tr >
+    < td > </ td >
+    < td > Guipúzcoa </ td >
+  </ tr >
+  < tr >
+    < td > </ td >
+    < td > Álava </ td >
+  </ tr >
+</ table >
+	
+< img  src = " tenor.gif "  width = 40% >
+
+</ cuerpo >
+
+
+
+</ html >
