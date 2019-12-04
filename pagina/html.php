@@ -1,14 +1,15 @@
 <html>
+
 <head>
+<table width="80%" align="center">
 <title>Arthuria fate stay night</title>
 </head>
-<body bgcolor="blue">
-<img src="arthuria.jpeg" width=10%>
+<body background="order.jpg">
 <h1>Armas de Arthuria</h1>
-<h2><u>calibur</u></h2>
-<h3>Excalibur</h3>
-<h4>Rhongomyniad</h4>
-<h5>Carnwennan</h5>
+<h1><u>calibur</u></h1>
+<h1>Excalibur</h1>
+<h1>Rhongomyniad</h1>
+<h1>Carnwennan</h1>
 
 <center><font size=40; color=blue><p><b>Si quieres saber mas de fate say nigth asi como de otros proyectos de typemoon</b></p></font></center>
 <form action="fate.php" method="post">
@@ -25,48 +26,48 @@
 <table width="50%" border="1">
 <table width="50%" border="1">
   <tr>
-    <th>Autonomia</th>
-    <th>Provincia</th>
+    <th><h1> Autonomia</h1></th>
+    <th><h1>Provincia<h1></th>
   </tr>
   <tr>
-    <td>Cantabria</td>
-    <td>Cantabria</td>
+    <td><h1>Cantabria</h1></td>
+    <td><h1>Cantabria</h1></td>
   </tr>
   <tr>
-    <td>Asturias</td>
-    <td>Asturia</td>
+    <td><h1>Asturias</h1></td>
+    <td><h1>Asturia</h1></td>
   </tr>
     <tr>
-    <td>Galicia</td>
-    <td>La Coruña</td>
+    <td><h1>Galicia</h1></td>
+    <td><h3>La Coruña</h3></td>
   </tr>
     <tr>
     <td></td>
-    <td>Lugo</td>
+    <td><h2>Lugo</h2></td>
   </tr>
 	<td></td>
-	<td>Pontevedra</td>
+	<td><h3>Pontevedra</h3></td>
   </tr>
     <tr>
     <td></td>
-    <td>Ourense</td>
+    <td><h3>Ourense</h3></td>
   </tr>
     <tr>
-    <td>Pais Vasco</td>
-    <td>Vizcaya</td>
+    <td><h1>Pais Vasco</h1></td>
+    <td><h2>Vizcaya</h2></td>
   </tr>
     <tr>
     <td></td>
-    <td>Guipuzcoa</td>
+    <td><h2>Guipuzcoa</h2></td>
   </tr>
   <tr>
     <td></td>
-    <td>Alava</td>
+    <td><h2>Alava</h2></td>
   </tr>
 </table>
 	
-<img src="excalibur.gif" width=60%>
-
+<img src="excalibur.gif" width="60%">
+</table>
 </body>
 
 
